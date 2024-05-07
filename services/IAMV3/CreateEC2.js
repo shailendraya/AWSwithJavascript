@@ -21,7 +21,7 @@ async function launchEc2Instance() {
         const command = new RunInstancesCommand(params);
         const response = await client.send(command);
 
-        console.log("Instance is launced");
+        console.log("Instance is launced-->", response);
     } catch(err) {
         console.error('Error : ', err);
     

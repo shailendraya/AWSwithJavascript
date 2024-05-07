@@ -3,7 +3,7 @@ import {IAMClient, CreatePolicyCommand} from '@aws-sdk/client-iam';
 
 const client = new IAMClient();
 
-const policy_name = "MyJavaScriptPolicy";
+const policy_name = "MyJavaScriptPolicyForS3Bucket";
 
 const policy_document = {
     "Version": "2012-10-17",
@@ -11,7 +11,7 @@ const policy_document = {
         {
             "Effect": "Allow",
             "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::parwiz-forogh-12/*"
+            "Resource": "arn:aws:s3:::mfrontend-project/*"
         }
     ]
 };

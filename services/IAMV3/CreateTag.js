@@ -3,7 +3,7 @@ import {IAMClient, TagUserCommand} from "@aws-sdk/client-iam";
 
 const client = new IAMClient();
 
-const user_name = "user1";
+const user_name = "john";
 
 const tags = [{'Key':'Department', 'Value':'HR'}, {'Key':'Project', 'Value':'Onboarding'}];
 
