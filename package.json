@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "@aws-sdk/client-ec2": "^3.569.0"
+    "@aws-sdk/client-dynamodb": "^3.574.0",
+    "@aws-sdk/client-ec2": "^3.569.0",
+    "@aws-sdk/middleware-retry": "^3.374.0"
   }
 }
